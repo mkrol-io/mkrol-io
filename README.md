@@ -1,72 +1,22 @@
 <!-- mkrol-io/mkrol-io · profile README -->
-<!-- hand-written. no cookies · no trackers · no javascript · renders in lynx. -->
+<!-- no cookies · no trackers · no javascript. every image is a file in this repository. -->
 
-```text
-MKROL(1)                Operator's Manual                 MKROL(1)
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="assets/banner-narrow-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-wide-dark.svg">
+  <source media="(max-width: 767px)" srcset="assets/banner-narrow-light.svg">
+  <img src="assets/banner-wide-light.svg" width="100%" alt="mkrol.io. nothing to prove. something to build.">
+</picture>
+</p>
 
-NAME
-     mkrol — keeps the lights on
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="assets/terminal-narrow-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-wide-dark.svg">
+  <source media="(max-width: 767px)" srcset="assets/terminal-narrow-light.svg">
+  <img src="assets/terminal-wide-light.svg" width="100%" alt="a terminal with three panes. left: id, alias, ping -c 1 limits, systemctl status mkrol, status --lately. right: cat axioms.txt, finger mkrol, fortune.">
+</picture>
+</p>
 
-SYNOPSIS
-     mkrol [-c] [-r] [--no-guess] escalation
-     mkrol --calm < incident
-
-DESCRIPTION
-     where escalations end.  reads the logs, does not guess.
-     resolution method: boring, mostly.  the machine doesn't
-     lie; it only waits to be read.
-
-OPTIONS
-     -c, --calm
-            calm is a system property, not a mood.  on by
-            default.
-
-     -r, --read-first
-            read before you write.  always.
-
-     --no-guess
-            fix the cause, not the page.
-
-     --obstacle
-            treat it as the way.
-
-PRINCIPLES
-     read before you write
-     fix the cause, not the page
-     calm is a system property
-     the obstacle is the way
-     the machine doesn't lie
-
-ENVIRONMENT
-     TZ         somewhere north
-     SHELL      /bin/calm
-     HOME       mkrol.io   (renders in lynx)
-
-FILES
-     /etc/motd            on call, reads first
-     ~/.plan              this page
-
-EXIT STATUS
-     0      resolved.  boring, mostly.
-     >0     does not occur here.  that is the job.
-
-DIAGNOSTICS
-     "the machine doesn't lie."  when it seems to, read
-     again.
-
-EXAMPLES
-     $ mkrol --read-first prod-is-down
-     $ mkrol --calm < 3am-page
-
-SEE ALSO
-     fortune(6), stoic(7), silence(1)
-
-BUGS
-     none that reproduce.
-
-AUTHOR
-     mkrol · me@mkrol.io · https://mkrol.io
-     no cookies · no trackers · no javascript
-
-mkrol.io                 somewhere north                  MKROL(1)
-```
+<p><samp><a href="https://mkrol.io">mkrol.io</a> · <a href="mailto:me@mkrol.io">me@mkrol.io</a> · <a href="https://instagram.com/mkrol.io">instagram</a> · <a href="https://x.com/mkrol_io">x</a></samp></p>
